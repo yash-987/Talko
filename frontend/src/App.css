@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.App {
+	font-family: 'Work Sans', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 300;
+	font-style: light;
+
+	min-height: 100vh;
+	display: flex;
+
+	background-image: url(./background.png);
+	background-size: cover;
+	background-position: center;
+}
+
+
+::-webkit-scrollbar{
+	width:0px
+}
+
+::-webkit-scrollbar-thumb{
+	background:rgba(136,136,136,0.281)
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background: #555;
+}
